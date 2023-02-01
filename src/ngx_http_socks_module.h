@@ -19,7 +19,7 @@
 #include <ngx_event_pipe.h>
 #include <ngx_http.h>
 
-ngx_module_t  ngx_http_socks_module;
+extern ngx_module_t  ngx_http_socks_module;
 
 typedef struct {
     ngx_array_t                    caches;  /* ngx_http_file_cache_t * */
